@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pirto Limbong</title>
+    <link rel="icon" type="image/png" href="assets/img/logopl.png">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+        <div class="wrapper">
+            <figure class="logo"><img src="/assets/img/logopl.png" width="80" height="80" alt="Logo Sebastian Garcia">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li><a class="link" href="#aboutme">Home</a></li>
+                    <li><a class="link" href="#portfolio">Portofolio</a></li>
+                    <li><a class="link" href="#events">Hobi</a></li>
+                    <li><a class="link contact-button" href="#contact">Kontak</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section id="aboutme" class="aboutme">
+        <div class="wrapper">
+            <h1>Halo.. Perkenalkan Saya <br><strong>Pirto Maruntung Limbong</strong>.
+            </h1>
+            <img class="aboutme-image" width="264" height="330" src="assets/img/pirto.jpg" alt="Pirto">
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="wrapper">
+            <h2>Project Saya</h2>
+            <article class="project">
+                <div class="project-content">
+                    <h3 class="project-tittle">Membuat Landing Page Aroma Bumi</h3>
+                    <h6 class="project-languages">HTML, CSS dan JavaScript</h6>
+                    <p class="project-date"><small><strong>Bulan:</strong> Maret 2023</small></p>
+                    <p class="project-link"><small>Link Demo : <a href="https://progate.testingmyapp.xyz/"
+                                target="_blank">Aroma-Bumi</a>.</small></p>
+                    <p class="project-description">Ini Merupakan Project saya dalam pelatihan FGA yang diadakan oleh
+                        Progate. </p>
+                </div>
+                <figure class="project-imageWrapper">
+                    <img class="project-image" src="assets/img/aroma-bumi.png" width="450"
+                        alt="landing page aroma-bumi">
+                </figure>
+            </article>
+            <article class="project">
+                <div class="project-content">
+                    <h3 class="project-tittle">Membuat Aplikasi Calculator</h3>
+                    <h6 class="project-languages">HTML, CSS dan JavaScript</h6>
+                    <p class="project-date"><small><strong>Bulan:</strong> Maret 2023</small></p>
+                    <p class="project-link"><small>Link Demo : <a
+                                href="https://pirtolimbong.github.io/calculator-javascript/" target="_blank">App
+                                Calculator</a>.</small>
+                    </p>
+                    <p class="project-description">Ini Merupakan Project saya dalam pelatihan FGA yang diadakan oleh
+                        Progate. </p>
+                </div>
+                <figure class="project-imageWrapper">
+                    <img class="project-image" src="assets/img/app-call.png" width="450" alt="aplikasi-calculator">
+                </figure>
+            </article>
+            <article class="project">
+                <div class="project-content">
+                    <h3 class="project-tittle">Membuat One Page Landing</h3>
+                    <h6 class="project-languages">HTML&CSS</h6>
+                    <p class="project-date"><small><strong>Bulan:</strong> Maret 2023</small></p>
+                    <p class="project-link"><small>Link Demo : <a
+                                href="https://pirtolimbong.github.io/latihan-html-css-prograte-pertama/"
+                                target="_blank">Porto</a>.</small>
+                    </p>
+                    <p class="project-description">Ini Merupakan Project saya dalam pelatihan FGA yang diadakan oleh
+                        Progate. </p>
+                </div>
+                <figure class="project-imageWrapper">
+                    <img class="project-image" src="assets/img/app-call.png" width="450" alt="aplikasi-calculator">
+                </figure>
+            </article>
+
+        </div>
+    </section>
+    <div class="wrapper">
+        <h2 id="events" class="event-header">Hobi Saya</h2>
+    </div>
+    <section class="event-list">
+        <div class="wrapper">
+            <article class="event">
+                <figure class="event-imageWrapper"><img class="event-image" src="assets/img/futsal.jpeg" alt="futsal">
+                </figure>
+                <div class="event-content">
+                    <h3 class="event-title">Futsal</h3>
+                    <p class="event-description">Futsal Membuuat Saya Fresh</p>
+
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageWrapper"><img class="event-image" src="assets/img/ngoding.jpeg" alt="mgoding">
+                </figure>
+                <div class="event-content">
+                    <h3 class="event-title">Ngoding</h3>
+                    <p class="event-description">Ngoding Tentun Hobi Saya Muhehe</p>
+
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="wrapper">
+            <form action="" class="form-email">
+                <h3>Kontak Saya</h3>
+                <input type="email" name="" id="" placeholder="Masukkan email anda">
+                <button>Kirim</button>
+            </form>
+            <div class="social">
+                <a href="" class="social-link twitter"></a>
+                <a href="" class="social-link instagram"></a>
+                <a href="" class="social-link github"></a>
+                <a href="" class="social-link steam"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div>
+                <p>Dikembangkan ❤️ oleh <a href="">Oppung Code</a>.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia('screen and (max-width: 767px)');
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+
+        ipad.addListener(validation);
+
+        function validation(event) {
+            if (event.matches) {
+                burgerButton.addEventListener('click', hideShow);
+            } else {
+                burgerButton.removeEventListener('click', hideShow);
+            }
+        }
+        validation(ipad);
+        function hideShow() {
+            if (menu.classList.contains('is-active')) {
+                menu.classList.remove('is-active');
+            } else {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
+</body>
+
+</html>
